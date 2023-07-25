@@ -151,7 +151,11 @@ OK (6 tests, 7 assertions)
 
 > **Contexto**: Esta pregunta tiene como objetivo evaluar tu conocimiento sobre la definición y el propósito de PHPUnit como una herramienta de testing. Explica de manera clara y concisa la función principal de esta herramienta en el desarrollo de sistemas profesional.
 
-Respuesta: [...]
+<details><summary><b>Respuesta</b></summary>
+<p>
+PHPUnit es un sistema de testing para el lenguaje de programación PHP. Su objetivo principal es proporcionar una estructura cómoda y profesional para facilitar la escritura y ejecución de tests al momento de crear proyectos. Con PHPUnit verificamos cada componente y pieza de manera individual, así garantizamos calidad y robustez del código.
+</p>
+</details>
 
 ### Pregunta 2: _Estructura y sintaxis_
 
@@ -159,7 +163,15 @@ Respuesta: [...]
 
 > **Contexto**: Esta pregunta tiene como objetivo evaluar tu comprensión sobre la estructura y la sintaxis utilizada en PHPUnit. Buscamos respuestas que demuestren conocimiento sobre la forma en que se definen los métodos de un test.
 
-Respuesta: [...]
+<details><summary><b>Respuesta</b></summary>
+<p>
+Básicamente:
+
+1. Una clase de test debe llamarse como la clase a revisar con el sufijo "test".
+2. Una clase de test debe extender de "PHPUnit\Framework\TestCase".
+3. Los métodos deben comenzar con el prefijo "test". Aquí es donde escribimos la lógica y los asserts para verificar que los resultados son los esperados.
+</p>
+</details>
 
 ### Pregunta 3: _Asserts_
 
@@ -167,7 +179,11 @@ Respuesta: [...]
 
 > **Contexto**: Esta pregunta tiene como objetivo evaluar tu conocimiento sobre los assert. Esperamos que puedas mencionar algunos y de manera opcional explicar cómo se utilizan correctamente.
 
-Respuesta: [...]
+<details><summary><b>Respuesta</b></summary>
+<p>
+assertEquals, assertTrue, assertFalse, assertNull, assertNotNull, assertArrayHasKey.
+</p>
+</details>
 
 ### Pregunta 4: _Configuración y ejecución_
 
@@ -175,7 +191,16 @@ Respuesta: [...]
 
 > **Contexto**: Esta pregunta tiene como objetivo evaluar tu comprensión sobre la configuración y ejecución de PHPUnit en un entorno de desarrollo profesional. Buscamos respuestas que demuestren conocimiento sobre la instalación, la configuración y la forma de ejecutar las pruebas desde el terminal.
 
-Respuesta: [...]
+<details><summary><b>Respuesta</b></summary>
+<p>
+Pasos principales: 
+
+1. Se debe contar con el componente PHPUnit, lo logramos mediante Composer. En "composer.json" debe estar registrada la dependencia de desarrollo "phpunit/phpunit".
+2. Cada clase debe extender de "PHPUnit\Framework\TestCase" con sus respectivos métodos de test.
+3. Los tests se ejecutan con el comando "./vendor/bin/phpunit".
+4. Opcionalmente, se pueden personalizar las configuraciones de PHPUnit mediante el archivo "phpunit.xml".
+</p>
+</details>
 
 ### Pregunta 5: _Cobertura de código_
 
@@ -183,4 +208,8 @@ Respuesta: [...]
 
 > **Contexto**: Esta pregunta tiene como objetivo evaluar tu conocimiento sobre el concepto de cobertura de código. Esperamos que lo puedas explicar de manera precisa y breve.
 
-Respuesta: [...]
+<details><summary><b>Respuesta</b></summary>
+<p>
+La cobertura de código es una técnica utilizada para determinar qué porcentaje del código creado ha sido ejecutado durante las pruebas. PHPUnit y otras herramientas de test proporciona las funcionalidades necesarias para medir la cobertura de código.
+</p>
+</details>
