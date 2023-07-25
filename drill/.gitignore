@@ -1,0 +1,5 @@
+# Composer dependencies
+/vendor
+
+# PHPUnit generated files
+.phpunit.result.cache

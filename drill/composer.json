@@ -1,0 +1,18 @@
+{
+    "name": "italomoralesf/drill",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Italomoralesf\\Drill\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Italo Morales F.",
+            "email": "i@rimorsoft.com"
+        }
+    ],
+    "require": {}
+}
